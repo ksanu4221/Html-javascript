@@ -1,0 +1,17 @@
+.root:hover{
+
+}
+
+#root{
+    color: "red";
+}
+
+.root{
+    color:"green"
+}
+
+p{
+    color:"yellow"
+}
+
+/* <p   style={color:"blue"}> */

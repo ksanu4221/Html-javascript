@@ -1,0 +1,86 @@
+/* 
+
+.container{
+    height: 300px;
+    width:150px;
+    padding: 20px;
+    background-color: red;
+}
+.child{
+     height: 200px;
+     width: 100px;
+     background-color:green;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container{
+        background-color: yellow;
+    }
+} */
+
+.box-model{
+    height: 200px;
+    width: 100%;
+    border: 5px solid red;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    /* display: flex; 
+    justify-content: center;
+     align-items: center; */
+     display: flex;   
+     flex-wrap: wrap;
+} 
+.box-child{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    /* 
+    margin-top: 70px;
+    margin-left: 45px;
+ */
+ /* margin: auto ; */
+ /* transform: translate(50% ,70px); */
+    /* margin-left: 200px; */
+}
+/* 
+how to center contents  
+1. display:flex , justify content center ,align item center
+2. margin 
+3. margin auto 
+4. transform translate      
+*/
+
+
+
+.parent1{
+    margin: 100px;
+    height: 200px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 20px;
+}
+
+.child1{
+    height: 40px;
+    width:60px;
+    background-color: red;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.parent2{
+    height: 50px;
+    width:60px;
+    background-color: yellowgreen;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}

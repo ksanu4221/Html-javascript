@@ -1,0 +1,6 @@
+semantic tag elements ===== section, article,footer,header,aside,nav
+
+non-semantic tag elements=== div, span
+
+Inline tag elements===  a, span, img,em,strong ,input
+

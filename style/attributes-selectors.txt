@@ -1,0 +1,31 @@
+attributes====     class , id , src , type , placeholder 
+
+
+selectors  === id , class , element
+      
+
+      inline>id>class>element > pseudo class
+
+
+<div style={color:"red}></div>
+
+========id======
+
+#root{
+
+}
+
+========class====
+.root{
+
+}
+
+=======element======
+
+p{           div{}  input{}
+
+}
+
+==============psedu class========
+
+.root::hover  
