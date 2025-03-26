@@ -10,6 +10,7 @@ and if use { } then we have to explicitly return the value
 ==========create a new branch===========
 1. go to checkout To option and select create new branch and give branch name
 (git checkout -b branchname)
+2.publish this branch
 2. make the changes in new branch 
 3.if u want to merge the new branch to main or other branch,then first go to
 main branch or other branch then select merge new branchname
