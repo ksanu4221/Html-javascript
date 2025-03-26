@@ -1,6 +1,20 @@
 in arrow function if we dont use { } in it then it implicitly return 
 and if use { } then we have to explicitly return the value
 
+==============github================
+1.stage the file changes
+2.add comment
+3.commit the files
+4.sync chnages or git push origin push(this will push the changes in remote repository)
+
+==========create a new branch===========
+1. go to checkout To option and select create new branch and give branch name
+(git checkout -b branchname)
+2. make the changes in new branch 
+3.if u want to merge the new branch to main or other branch,then first go to
+main branch or other branch then select merge new branchname
+
+
 
 this is main branch
 
