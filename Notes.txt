@@ -1,6 +1,7 @@
 in arrow function if we dont use { } in it then it implicitly return 
 and if use { } then we have to explicitly return the value
 
+
 ==============github================
 1.stage the file changes
 2.add comment
@@ -17,6 +18,5 @@ main branch or other branch then select merge new branchname
 
 
 
-this is main branch
+branch name is main
 
-this is vishkha branch
